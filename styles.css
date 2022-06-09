@@ -1,0 +1,66 @@
+* {
+	min-height: 10px;
+	font-family: "Patrick Hand", cursive;
+}
+body {
+	background: black;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header > img {
+	width: 50px;
+	height: 50px;
+	align-self: center;
+	padding: 3px 10px 0px 0px;
+}
+.postcard-header > h1 {
+	margin: 0px;
+	padding: 10px 148px 0px 10px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-right {
+	font-size: 30px;
+	margin-left: 20px;
+	padding-right: 10px;
+}
+input {
+	border-bottom: 1px solid lightgray;
+}
+.body-left {
+	font-size: 16px;
+	line-height: 92%;
+	margin-left: 10px;
+	margin-right: -15px;
+}
+.postcard-footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+button {
+	padding: 5px;
+	background-color: lightgray;
+	color: black;
+	border-bottom: 1px black solid;
+	border-right: 1px black solid;
+	font-size: 17px;
+}
+button:active {
+	padding: 5px;
+	background-color: lightgray;
+	color: black;
+	border-top: 1px black solid;
+	border-left: 1px black solid;
+	border-bottom: none;
+	border-right: none;
+	font-size: 17px;
+}
